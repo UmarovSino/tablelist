@@ -134,7 +134,7 @@ function getData(data) {
 
 
 
-
+       
 
         let editimg = document.createElement("img")
         editimg.type = "image"
@@ -151,7 +151,9 @@ function getData(data) {
          imgd.src=e.userphoto
          userphoto.appendChild(imgd)
          imgd.style.borderRadius="90%"
-         imgd.style.width="100px"
+         imgd.style.width="70px"
+          imgd.style.height="70px"
+
         ////elem
         id.innerHTML = e.id;
         name.innerHTML = e.name;
