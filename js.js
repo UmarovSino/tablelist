@@ -134,7 +134,7 @@ function getData(data) {
 
 
 
-       
+
 
         let editimg = document.createElement("img")
         editimg.type = "image"
@@ -148,11 +148,12 @@ function getData(data) {
 
         let imgd = document.createElement("img")
         imgd.type = "image"
-         imgd.src=e.userphoto
-         userphoto.appendChild(imgd)
-         imgd.style.borderRadius="90%"
-         imgd.style.width="70px"
-          imgd.style.height="70px"
+        imgd.src = e.userphoto
+        userphoto.appendChild(imgd)
+        imgd.style.borderRadius = "90%"
+        imgd.style.width = "80px"
+        imgd.style.height = "80px"
+        imgd.style.border="1px solid black"
 
         ////elem
         id.innerHTML = e.id;
@@ -160,6 +161,11 @@ function getData(data) {
         company.innerHTML = e.company;
         age.innerHTML = e.age;
 
+
+name.style.fontWeight="bold"
+company.style.fontWeight="bold"
+age.style.fontWeight="bold"
+id.style.fontWeight="bold"
         ////function 
         btndelete.onclick = () => {
             functionBtn(e.id)
