@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Easy table component </title>
+    <link rel="stylesheet" href="css.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="inpselect">
+            <input type="text" class="searchvalue">
+
+        </div>
+        <button class="add">ADD USER</button>
+    </div>
+
+    <div class="box">
+
+        <table>
+            <thead>
+                <th>id</th>
+                <th>Name</th>
+                <th>Company</th>
+                <th>User</th>
+                <th>Age</th>
+                <th>clicks</th>
+            </thead>
+            <tbody class="tbody">
+
+            </tbody>
+        </table>
+
+
+    </div>
+
+
+    <dialog class="addModal">
+        <div class="moddiv">
+            <h2 class="mod">addModal</h2>
+            <button class="xclose">x</button>
+        </div>
+
+        <form action="" class="addForm">
+            <label for="addname">name</label>
+            <input type="text" name="addName">
+            <label for="company">company</label>
+            <input type="text" name="addCompany">
+            <label for="userphoto">userphoto</label>
+            <input type="text" name="addUserphoto">
+            <label for="age">age</label>
+            <input type="text" name="addage">
+            <div class="divsub">
+                <button type="submit" class="save">save</button>
+
+            </div>
+        </form>
+    </dialog>
+
+
+
+
+
+
+    <dialog class="editModal">
+        <div class="moddiv">
+            <h2 class="mod">editModal</h2>
+            <button class="edclose">x</button>
+        </div>
+
+        <form action="" class="editForm">
+            <label for="addname">name</label>
+            <input type="text" name="editName">
+            <label for="company">company</label>
+            <input type="text" name="editCompany">
+            <label for="userphoto">userphoto</label>
+            <input type="text" name="editUserphoto">
+            <label for="age">age</label>
+            <input type="text" name="editage">
+            <div class="divsub">
+                <button type="submit" class="save">save</button>
+
+            </div>
+        </form>
+    </dialog>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./js.js"></script>
+</body>
+
+</html>

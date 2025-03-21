@@ -1,0 +1,151 @@
+.add {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: rgb(62, 136, 62);
+    color: white;
+
+
+
+}
+
+.box {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.header {
+
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.inpselect {
+
+    place-content: center;
+}
+
+.searchvalue {
+    width: 300px;
+    height: 20px;
+    outline: none;
+
+}
+
+.selectvalue {
+    width: 60px;
+    height: 25px;
+}
+
+th {
+    color: gray;
+    font-weight: bold;
+    font-size: 25px;
+
+
+
+}
+
+table {
+
+    border-collapse: collapse;
+    width: 1200px;
+    margin-top: 30px;
+}
+
+thead {
+
+    width: 1200px;
+
+}
+
+tr {
+
+    text-align: center;
+}
+
+td {
+    font-size: 22px;
+    border-top: 0.2px solid black;
+    padding: 10px;
+    color: black;
+}
+
+.moddiv {
+    display: flex;
+    justify-content: space-between;
+    place-items: center;
+}
+
+.xclose {
+    background-color: white;
+    height: 30px;
+    width: 30px;
+    border: none;
+    font-size: 20px;
+}
+
+.addForm {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 500px;
+
+}
+
+.addModal {
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.divsub {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
+
+label {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.save {
+    border: none;
+    background-color: rgb(12, 12, 238);
+    color: white;
+    width: 80px;
+    height: 25px;
+    border-radius: 5px;
+}
+
+.closes {
+    border: none;
+    background-color: rgb(12, 12, 238);
+    color: white;
+    width: 80px;
+    height: 25px;
+    border-radius: 5px;
+}
+
+.editForm {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 500px;
+
+}
+
+.editModal {
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.photo{
+    border-radius: 30px;
+}
